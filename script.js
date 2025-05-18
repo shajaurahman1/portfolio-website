@@ -10,8 +10,9 @@ function toggleTheme() {
   }
 }
 
-window.onload = () => {
+window.onload = function () {
   document.body.classList.add("dark-mode");
 };
+
 
 

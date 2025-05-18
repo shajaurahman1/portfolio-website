@@ -47,22 +47,16 @@ button:hover {
   background-color: #0d6efd;
 }
 
-/* Project card styling */
-.project-card {
-  border: 1px solid #333;
-  padding: 20px;
-  width: 250px;
+body.dark-mode .project-card {
   background: #1e1e1e;
-  margin: 10px;
-  display: inline-block;
-  border-radius: 8px;
+  border: 1px solid #333;
   box-shadow: 0 0 10px #000;
 }
 
-.project-card h3 {
+body.dark-mode .project-card h3 {
   color: #00bfff;
 }
 
-.project-card p {
+body.dark-mode .project-card p {
   color: #dddddd;
 }
