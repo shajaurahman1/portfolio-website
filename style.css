@@ -1,20 +1,29 @@
-body {
-  font-family: Arial, sans-serif;
+body.dark-mode{
   background-color: #121212;
   color: #f5f5f5;
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
-h1, h2, h3 {
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
   color: #ffffff;
 }
-
-p {
+body.dark-mode p{
   color: #cccccc;
 }
+body.light-mode{
+  background-color: #f5f5f5;
+  color: #121212;
+}
 
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3 {
+  color: #121212;
+}
+body.light-mode p{
+  color: #222222;
+}
 img {
   margin: 20px 0;
   border-radius: 50%;
